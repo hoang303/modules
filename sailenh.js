@@ -928,6 +928,6 @@ var poem = res.data.data;
 "https://i.postimg.cc/DwdCZqN6/241003969-583771842756201-8629780581690057970-n.jpg",
 "https://i.postimg.cc/d17RFwFr/88100106-638937310366245-1175103159559782400-n.jpg",
 ];
-	var callback = () => api.sendMessage({body:`Đ𝐨̂̀ 𝐧𝐠𝐨̂́𝐜 !! 𝐒𝐚𝐢 𝐥𝐞̣̂𝐧𝐡 𝐫𝐨̂̀𝐢 𝐧𝐞̀ <𝟑\n🎀──── •❤️• ────🎀\n「 𝙏𝙝𝙞́𝙣𝙝 」:${poem}\n[ ${gio} ]`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"));	
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/5.jpg")).on("close",() => callback());
+	var callback = () => api.sendMessage({body:`Đ𝐨̂̀ 𝐧𝐠𝐨̂́𝐜 !! 𝐒𝐚𝐢 𝐥𝐞̣̂𝐧𝐡 𝐫𝐨̂̀𝐢 𝐧𝐞̀ <𝟑\n🎀──── •❤️• ────🎀\n「 𝙏𝙝𝙞́𝙣𝙝 」:${poem}\n[ ${gio} ]`,attachment: fs.createReadStream(__dirname + "/cache/sailenh/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/sailenh/5.jpg"));	
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/sailenh/5.jpg")).on("close",() => callback());
    };
