@@ -12,7 +12,7 @@ module.exports.config = {
         "simple-youtube-api": ""
     },
     envConfig: {
-        "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+        "YOUTUBE_API": "AIzaSyAwTHyjo1wnyTH305BFx_bLlIvWbPpSs88"
     }
 };
 
