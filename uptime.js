@@ -20,7 +20,7 @@ function byte2mb(bytes) {
 
 module.exports.languages = {
 	"vi": {
-		"returnResult": "🌸 тнờι gιαи нσạт độиg %1 giờ %2 phút %3 giây.\n\n❯ 🤡 ᴛổɴɢ ɴɢườɪ ᴅùɴɢ: %4\n🏘 ᴛổɴɢ ɴʜóᴍ %5\n🔰 ᴄᴘᴜ đᴀɴɢ sử ᴅụɴɢ: %6%\n🔰 rαm đαng sử dụng: %7\m📡  Ping: %8 ms"
+		"returnResult": "🌸 тнờι gιαи нσạт độиg %1 giờ %2 phút %3 giây.\n\n🤡 ᴛổɴɢ ɴɢườɪ ᴅùɴɢ: %4\n🏘 ᴛổɴɢ ɴʜóᴍ %5\n🔰 ᴄᴘᴜ đᴀɴɢ sử ᴅụɴɢ: %6%\n🔰 rαm đαng sử dụng: %7\n📡 Ping: %8 ms"
 	},
 	"en": {
 		"returnResult": "Bot has been working for %1 hour(s) %2 minute(s) %3 second(s).\n\n❯ Total users: %4\n❯ Total Threads: %5\n❯ Cpu usage: %6%\n❯ RAM usage: %7\n❯ Ping: %8ms\n\n=== This bot was made by ??? ==="
